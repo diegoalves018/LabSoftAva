@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "186216422638",
+    "firebase_url": "https://misturadigital-239b8-default-rtdb.firebaseio.com",
+    "project_id": "misturadigital-239b8",
+    "storage_bucket": "misturadigital-239b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186216422638:android:953f1fa5486ff6e2dca7ff",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186216422638-51t97dabsob0tfan1lkglmio3hv27l6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "4ca6144f19bd734f7c83c64e7311f4142be2b500"
+          }
+        },
+        {
+          "client_id": "186216422638-908ttjlv5483a1fljp9kj6ktf8qmo0vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx7SJFKm8fuLpxGb2NLEUJuraszV2zyWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186216422638-908ttjlv5483a1fljp9kj6ktf8qmo0vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
