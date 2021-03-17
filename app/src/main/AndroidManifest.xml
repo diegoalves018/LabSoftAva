@@ -2,6 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
 
+    <!-- permissoes INTERNET -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- permissoes GALERIA -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- permissoes CAMERA
+    <uses-permission android:name="android.permission.CAMERA"/>-->
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +19,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".activity.EmpresaActivity"></activity>
+        <activity
+            android:name=".activity.NovoProdutoEmpresaActivity"
+            android:parentActivityName=".activity.EmpresaActivity" />
+        <activity
+            android:name=".activity.ConfiguracoesEmpresaActivity"
+            android:parentActivityName=".activity.EmpresaActivity" />
+        <activity
+            android:name=".activity.ConfiguracoesUsuarioActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity android:name=".activity.EmpresaActivity" />
         <activity android:name=".activity.HomeActivity" />
         <activity android:name=".activity.AutenticacaoActivity" />
         <activity android:name=".activity.SplashActivity">

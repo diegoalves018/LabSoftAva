@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuNovoProduto"
+        android:icon="@drawable/ic_adicionar_24"
+        android:title="Novo Produto"
+        app:showAsAction="always" />
+    <item android:id="@+id/menu_configuracao"
+        android:title="Configurações"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_sair"
+        android:title="Sair"
+        app:showAsAction="never"/>
+</menu>

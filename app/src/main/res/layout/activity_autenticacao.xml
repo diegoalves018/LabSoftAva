@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ed2" />
 
     <EditText
-        android:id="@+id/editCadastroEmail"
+        android:id="@+id/editEmpresaNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_edit_text"
@@ -28,7 +28,7 @@
         android:padding="16dp" />
 
     <EditText
-        android:id="@+id/editCadastroSenha"
+        android:id="@+id/editEmpresaCategoria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="-2dp"
@@ -51,7 +51,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="Logar"
-            android:textColor="@color/black" />
+            android:textColor="@android:color/black" />
 
         <Switch
             android:id="@+id/switchAcesso"
@@ -68,7 +68,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="Cadastre-se"
-            android:textColor="@color/black" />
+            android:textColor="#000000" />
     </LinearLayout>
 
     <LinearLayout
@@ -87,7 +87,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="Usuário"
-            android:textColor="@color/black" />
+            android:textColor="#000000" />
 
         <Switch
             android:id="@+id/switchTipoUsuario"
@@ -102,7 +102,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="Empresa"
-            android:textColor="@color/black" />
+            android:textColor="#000000" />
     </LinearLayout>
 
     <Button
@@ -114,5 +114,6 @@
         android:text="Acessar"
         android:textColor="#000000"
         android:theme="@style/botaoPadrao"
+        app:backgroundTint="#EF262D"
         app:iconTint="#FFC003" />
 </LinearLayout>
