@@ -144,7 +144,7 @@ public class NovoProdutoEmpresaActivity extends AppCompatActivity
 
         String nomeProduto = campoNome.getText().toString();
         String quantidadeProduto = campoQuantidade.getText().toString();
-        String precoProduto = String.valueOf(campoPreco.getRawValue());
+        String precoProduto = campoPreco.getText().toString();
         String descricaoProduto = campoDescricao.getText().toString();
         String categoriaProduto = campoCategoria.getText().toString();
 
@@ -161,13 +161,14 @@ public class NovoProdutoEmpresaActivity extends AppCompatActivity
 
     public void validarDadosProduto (View view){
          produto = configurarProduto();
+        String precoProduto = String.valueOf(campoPreco.getRawValue());
 
 
          if (listaFotosRecuperadasProduto.size() != 0){
                if (!produto.getNomeProduto().isEmpty()){
                    if (!produto.getCategoriaProduto().isEmpty()){
                        if (!produto.getQuantidadeProduto().isEmpty()){
-                           if (!produto.getPrecoProduto().isEmpty() && !produto.getPrecoProduto().equals("0")){
+                           if (!precoProduto.isEmpty() && !precoProduto.equals("0")){
                                if (!produto.getDescricaoProduto().isEmpty()){
                                    produto.salvar();
                                     salvarProduto();
